@@ -1,0 +1,18 @@
+{
+  "userName": {
+    "default": "",
+    "type": "string"
+  },
+  "userTitle": {
+    "default": "",
+    "type": "string"
+  },
+  "description": {
+    "default": "",
+    "type": "string"
+  },
+  "image": {
+    "default": 0,
+    "type": "number"
+  }
+}

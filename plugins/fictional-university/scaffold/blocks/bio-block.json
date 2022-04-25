@@ -1,0 +1,29 @@
+{
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "default": 0,
+      "type": "number"
+    }
+  },
+  "category": "widgets",
+  "description": "A basic Bio block for users.",
+  "icon": "admin-users",
+  "keywords": [
+    "bio-block",
+    "user bio"
+  ],
+  "name": "bio-block",
+  "namespace": "fictional-university",
+  "post_types": [
+    "all"
+  ],
+  "title": "Bio Block"
+}

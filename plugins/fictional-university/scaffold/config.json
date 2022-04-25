@@ -1,0 +1,5 @@
+{
+  "core_term_meta": true,
+  "domain": "fictional-university",
+  "require_path": "__DIR__"
+}

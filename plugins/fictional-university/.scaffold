@@ -1,0 +1,9 @@
+{
+  "version": "0.8.0",
+  "block:bio-block": "5f2c7671d3cb9f33948ebedd0085ebdb",
+  "block-attributes:bio-block": "4c9f1cb18669f8fdeddd33b4c21edb03",
+  "block-init:bio-block": "13b6c507d969af0f456d9566a9335e0f",
+  "block:sample-block": "f0a373606279b05856be6a33a40673d3",
+  "block-attributes:sample-block": "5c2a91ae54f2c5e28750313cd55d15c9",
+  "block-init:sample-block": "93c59e3600810d16ab56f4322541bf18"
+}
