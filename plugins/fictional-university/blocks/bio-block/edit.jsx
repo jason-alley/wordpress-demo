@@ -2,7 +2,7 @@ import React from 'react';
 import { __ } from '@wordpress/i18n';
 import PropTypes from 'prop-types';
 import { TextControl } from '@wordpress/components';
-import { RichText } from '@wordpress/block-editor';
+import { TextareaControl } from '@wordpress/components';
 import ImagePicker from '../../components/image-picker';
 
 const Edit = ({
@@ -19,6 +19,7 @@ const Edit = ({
       value={image}
     />
     <TextControl
+      type=""
       label={__('Name', 'fictional-university')}
       value={userName}
       onChange={
@@ -29,13 +30,14 @@ const Edit = ({
       label={__('Title', 'fictional-university')}
       value={userTitle}
       onChange={
-        (value) => { setAttributes({ description: value }); }
+        (value) => { setAttributes({ userTitle: value }); }
       }
     />
-    <RichText
-      placeholder="Bio description"
-      value={description}
-      onChange={(newValue) => { setAttributes({ description: newValue }); }}
+    <TextareaControl
+      label={__('Description', 'fictional-university')}
+      value={ description }
+      rows="10"
+      onChange={(value) => { setAttributes({ description: value }); }}
     />
   </div>
 );
