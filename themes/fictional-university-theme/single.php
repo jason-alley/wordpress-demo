@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <?php 
-    while ( have_posts() ) {
-       the_post(); ?>
+while ( have_posts() ) {
+    the_post(); ?>
 <div class="page-banner">
     <div class="page-banner__bg-image"
         style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg') ?>)"></div>
@@ -33,6 +33,6 @@
     </div>
 </div>
 <?php }
-  ?>
+?>
 
 <?php get_footer(); ?>

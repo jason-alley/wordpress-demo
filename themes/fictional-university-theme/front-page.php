@@ -48,12 +48,14 @@
         <div class="full-width-split__inner">
             <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
             <?php 
-            $homepagePosts =  new WP_Query([
-              'posts_per_page' => 2
-            ]);
+            $homepagePosts =  new WP_Query(
+                [
+                'posts_per_page' => 2
+                ]
+            );
 
             while ( $homepagePosts->have_posts() ) {
-              $homepagePosts->the_post();?>
+                $homepagePosts->the_post();?>
             <div class="event-summary">
                 <a class="event-summary__date event-summary__date--beige t-center" href="<?php the_permalink(); ?>">
                     <span class="event-summary__month">
@@ -76,7 +78,7 @@
                 </div>
             </div>
             <?php }
-          ?>
+            ?>
 
             <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
         </div>
