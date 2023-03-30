@@ -1,0 +1,25 @@
+{
+  "attributes": {
+    "postId": {
+      "default": 0,
+      "type": "number"
+    },
+    "size": {
+      "default": "thumbnail",
+      "type": "string"
+    }
+  },
+  "category": "widgets",
+  "description": "Jason test responsive image block",
+  "icon": "admin-users",
+  "keywords": [
+    "responsive-image",
+    "responsive image"
+  ],
+  "name": "responsive image",
+  "namespace": "fictional-university",
+  "post_types": [
+    "all"
+  ],
+  "title": "Responsive Image"
+}
